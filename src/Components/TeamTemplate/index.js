@@ -10,6 +10,7 @@ export default function TeamTemplate() {
                     <TeamPerson name="عاصم عبدالله ناجي" info="مهندس برمجيات" image="/images/person-profile.svg" />
                     <TeamPerson name="محمد عبدالله قاسم" info="مهندس برمجيات" image="/images/person-profile.svg" />
                     <TeamPerson name="محمد سعيد" info="مهندس برمجيات" image="/images/person-profile.svg" />
+                    <TeamPerson name="جمال مجدي" info="مهندس برمجيات" image="/images/person-profile.svg" />
                 </div>
             </div>
         </section>
