@@ -8,7 +8,7 @@ export default function Team() {
                     <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">كوكبة من مهندسي البرمجيات والتقنين والمبرمجين</p>
                 </div>
                 <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-                    <TeamMember name="عاصم عبدالله ناجي" info="مهندس برمجيات" description="مطور Backend ويب , مهتم ايضاً بتحليل الانظمة وادارة المشاريع" image="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"/>
+                    <TeamMember name="عاصم عبدالله ناجي" info="مهندس برمجيات" description="مطور Backend ويب , مهتم ايضاً بتحليل الانظمة وادارة المشاريع" image="/images/developer.svg"/>
                     <TeamMember name="محمد سعيد" info="مهندس برمجيات" description="مصمم واجهات التطبيقات والمواقع ، مطور ايضاً في Front End" image="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"/>
                     <TeamMember name="محمد عبدالله قاسم" info="مهندس برمجيات" description="مطور Backend ويب ، اتخصص في تطوير الواجهة الخلفية في مواقع الويب" image="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"/>
                     <TeamMember name="مهند هاني" info="مهندس برمجيات" description="مطور تطيبقات Desktop ، اهتم ايضاً في تعلم تطوير الويب باستخدام Node js" image="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"/>
@@ -23,9 +23,9 @@ export default function Team() {
 
 export function TeamMember(props) {
     return (
-        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 max-h-72 overflow-hidden">
             <a href="#">
-                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg object-cover flex-grow-0" src={props.image} alt={props.name} />
+                <img class="max-w-60 rounded-lg sm:rounded-none sm:rounded-l-lg object-cover flex-grow-0" src={props.image} alt={props.name} />
             </a>
             <div class="p-5">
                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">

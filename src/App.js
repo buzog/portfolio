@@ -4,6 +4,7 @@ import Footer from "./Components/Static/Footer";
 import Hero from "./Components/Hero";
 import Team from "./Components/Team";
 import Contact from "./Components/Contact";
+import TeamTemplate from "./Components/TeamTemplate";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <div class="mt-10"></div>
       <Hero />
-      <Team />
+      <TeamTemplate />
+      <hr className="border-neutral-800" />
       <Contact />
       <Footer />
     </>
